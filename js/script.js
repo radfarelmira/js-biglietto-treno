@@ -22,6 +22,7 @@ console.log (price);
 //Se il passeggero è i minorenni va applicato uno sconto del 20% 
 // Se il passeggero ha over 65 anni va applicato uno sconto del 40%
 let totalPrice;
+
 if ( userAge <= 18){
     totalPrice = (price * 20) / 100;
 
