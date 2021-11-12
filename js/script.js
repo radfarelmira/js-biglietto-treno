@@ -15,15 +15,27 @@ console.log (userAge);
 
 //LOGIC
 // Calcolare il prezzo del biglietto del viaggio
+// il prezzo del biglietto è definito in base ai km (0.21 € al km)
 let price = (numberOfkm * 0.21);
 console.log (price);
-// il prezzo del biglietto è definito in base ai km (0.21 € al km)
 
 //Se il passeggero è i minorenni va applicato uno sconto del 20% 
-
 // Se il passeggero ha over 65 anni va applicato uno sconto del 40%
+let totalPrice;
+if ( userAge <= 18){
+    totalPrice = (price * 20) / 100;
 
-// Alterimenti prezzo senza sconto
+} else if ( userAge >= 65){
+    totalPrice = (price * 40) / 100;
 
+}
+console.log (totalPrice);
 
 // OUTPUT
+// L'output del prezzo finale va messo fuori in forma umana
+totalPrice = price.toFixed(2).toString();
+finalPrice = `${totalPrice} €`;
+console.log (price);
+
+alert (finalPrice);
+console.log (finalPrice);
