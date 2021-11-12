@@ -7,10 +7,10 @@
 
 //DECLARATION
 //chiedere all'utente il numero di chilometri che vuole percorrere
-const numberOfkm = parseInt ( prompt ('Quanto km lunga la tua destinazione?'));
+const numberOfkm = parseInt ( prompt ('Quanti km è lontana la tua destinazione?'));
 console.log (numberOfkm);
 //chiedere all'utente l'età del passeggero
-const userAge = parseInt ( prompt ('Quale la tua età?'));
+const userAge = parseInt ( prompt ('Qual è la tua età?'));
 console.log (userAge);
 
 //LOGIC
