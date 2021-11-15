@@ -21,10 +21,10 @@ let price = (numberOfkm * 0.21);
 // Se il passeggero ha over 65 anni va applicato uno sconto del 40%
 
 if ( userAge <= 18){
-    price = (price * 20) / 100;
+    price = price * (20 / 100);
 
 } else if ( userAge >= 65){
-    price = (price * 40) / 100;
+    price = price * (40 / 100);
 
 }
 
